@@ -1,11 +1,21 @@
-fn main() {
-    let num = 5;
-    println!("{}", num)
+struct User {
+    name: String,
+    age: u32,
+}
 
-    if num == 5 {
-        let num1 = 3;
-    } else {
-        let num2 =4;
+impl User {
+    fn print_name(&mut self) {
+        self.name = "John".to_string();
+        println!("{}", self.name);
+        println!("{}", self.age);
     }
-    println!("{}", num1, num2)
+}
+
+fn main() {
+    let  user = User {
+        name: "taro".to_string(),
+        age: 20,
+    };
+
+    user.print_name();
 }
