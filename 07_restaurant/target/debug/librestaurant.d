@@ -1,1 +1,0 @@
-/Users/yuki.miyakawa/src/my-repository/rustacean/restaurant/target/debug/librestaurant.rlib: /Users/yuki.miyakawa/src/my-repository/rustacean/restaurant/src/front_of_house.rs /Users/yuki.miyakawa/src/my-repository/rustacean/restaurant/src/lib.rs
